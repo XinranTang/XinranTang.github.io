@@ -1,6 +1,5 @@
 ---
 title: "R learning cheat sheet"
-
 ---
 
 
