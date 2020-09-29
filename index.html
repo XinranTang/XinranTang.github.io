@@ -1,3 +1,55 @@
 ---
-layout: home
+layout: default
 ---
+<html>
+<head>
+	<title>Xinran Tang</title>
+<!--	<meta property="og:image" content="Path to my teaser.png"/> &lt;!&ndash; Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. &ndash;&gt;-->
+	<meta property="og:title" content="Xinran(Sherry) Tang" />
+	<meta property="og:description" content="Welcome to my personal web page" />
+
+	<!-- Get from Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-75863369-6');
+	</script>
+</head>
+
+<body>
+<div class="my-6">
+      <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Personal Information</h2>
+        <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My personal information and experience.</p>
+        <table width=850px>
+		<tr>
+			<td>
+				I am a research assistant at UC San Diego, working with <a  style="color: darkblue" href='https://kennethcwilbur.github.io/website/'>Professor Kenneth Wilbur</a> on business analytics. I am also working as a research assistant at UC Riverside with <a  style="color: darkblue" href='http://www.mingyujoo.com'>Professor Mingyu (Max) Joo</a>.
+			</td>
+
+		</tr>
+			<tr height=10px></tr>
+		<tr>
+			<td>
+				I got intern experience at Walmart, supervised by <a  style="color: darkblue" href="https://www.linkedin.com/in/tom-tang-0826861/">Tom Tang</a>, and Targeted Solutions Inc, supervised by Samuel Stone.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I recently graduated from Northeastern University(CN) with a Bachelor's degree. I was a visiting student at UC Berkeley for 2020 Spring semester and Mcgill University of Canada for 2019 Summer.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I am applying to graduate programs in United States.
+				I major in computer science (field: software engineering) and am broadly interested in data science and business analytics. I acquire strong technical skills required for these fields and obsess excellent reasoning ability.
+		</tr>
+          <tr><a href="https://xinrantang.github.io/personal_info/">Go to my personal information page.</a></tr>
+	</table>
+</div>
+</body>
