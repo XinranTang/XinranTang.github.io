@@ -1,5 +1,6 @@
 ---
-title: "Welcome to Jekyll!"
+title: "R learning cheat sheet"
+
 ---
 
 
