@@ -1,5 +1,6 @@
 layout: sidebar
 style: light
+future: true
 
 plugins:
   - jekyll-octicons

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "R learning cheat sheet"
 published: true
 ---
