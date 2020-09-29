@@ -43,7 +43,7 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  website: https://xinrantang.github.io/personal_info
+  website: "https://xinrantang.github.io/personal_info"
   # youtube: your_username
 
 topics:
