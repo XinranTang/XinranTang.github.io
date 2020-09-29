@@ -1,6 +1,5 @@
 ---
 title: "Welcome to Jekyll!"
-published: true
 ---
 
 
