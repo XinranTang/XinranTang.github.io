@@ -7,6 +7,37 @@
     <div {% if site.style == 'dark' %}class="text-white"{% endif %}>
       {{ content }}
     </div>
+    <div class="my-6">
+      <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Personal Information</h2>
+        <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My personal information and experience.</p>
+        <table width=850px>
+		<tr>
+			<td>
+				I am a research assistant at UC San Diego, working with <a  style="color: darkblue" href='https://kennethcwilbur.github.io/website/'>Professor Kenneth Wilbur</a> on business analytics. I am also working as a research assistant at UC Riverside with <a  style="color: darkblue" href='http://www.mingyujoo.com'>Professor Mingyu (Max) Joo</a>.
+			</td>
+
+		</tr>
+			<tr height=10px></tr>
+		<tr>
+			<td>
+				I got intern experience at Walmart, supervised by <a  style="color: darkblue" href="https://www.linkedin.com/in/tom-tang-0826861/">Tom Tang</a>, and Targeted Solutions Inc, supervised by Samuel Stone.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I recently graduated from Northeastern University(CN) with a Bachelor's degree. I was a visiting student at UC Berkeley for 2020 Spring semester and Mcgill University of Canada for 2019 Summer.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I am applying to graduate programs in United States.
+				I major in computer science (field: software engineering) and am broadly interested in data science and business analytics. I acquire strong technical skills required for these fields and obsess excellent reasoning ability.
+		</tr>
+          <tr><td><a href="https://xinrantang.github.io/personal_info/" style="color: #eee"> <b>Go to my personal information page.</b></a></td></tr>
+	</table>
+    </div>
 
     <div class="my-6">
       {% include projects.html %}
