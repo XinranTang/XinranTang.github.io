@@ -22,10 +22,13 @@ felm(
 The formula specification is a response variable followed by a ***four part*** formula. 
 
 
-<li>The first part consists of ordinary covariates
-<li>The second part consists of factors to be projected out. 
-<li>The third part is an IV-specification. 
-<li>The fourth part is a cluster specification for the standard errors. 
+1.The first part consists of ordinary covariates
+
+2.The second part consists of factors to be projected out.
+ 
+3.The third part is an IV-specification. 
+
+4.The fourth part is a cluster specification for the standard errors. 
 
 
 i.e. something like 
