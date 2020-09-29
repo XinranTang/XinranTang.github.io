@@ -5,6 +5,10 @@ published: true
 
 
 # R for data science
+## Some useful learning sourses:
+**Statistical Methods for Data Science** by ***Elizabeth Purdom***
+https://epurdom.github.io/Stat131A/book/
+
 ## felm
 felm is used to fit linear models with multiple group fixed effects, similarly to lm. It uses the Method of Alternating projections to sweep out multiple group effects from the normal equations before estimating the remaining coefficients with OLS.
 ```R
