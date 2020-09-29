@@ -23,7 +23,7 @@ layout: default
 <body>
 <div class="my-6">
       <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Personal Information</h2>
-        <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">My personal information and experience.</p>
+        <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}" style="color: {% if site.style == 'dark' %}white{% else %}gray{% endif %}">My personal information and experience.</p>
         <table width=850px>
 		<tr>
 			<td>
@@ -54,7 +54,7 @@ layout: default
 </div>
 <hr>
 <div class="my-6">
-    <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Transcripts and Awards</h2>
+    <h2 {% if site.style == 'dark' %}class="text-white"{% endif %} style="color: {% if site.style == 'dark' %}white{% else %}gray{% endif %}">Transcripts and Awards</h2>
         <p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">Documents for my transcripts and awards.</p>
         <table>
               <tr><a href="https://xinrantang.github.io/documents/">Go to listing page.</a></tr>
