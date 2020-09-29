@@ -1,0 +1,422 @@
+<script src="http://www.google.com/jsapi" type="text/javascript"></script> 
+<script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+<style type="text/css">
+	body {
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+		font-weight:300;
+		font-size:18px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+	}
+	
+	h1 {
+		font-size:32px;
+		font-weight:300;
+	}
+	
+	.disclaimerbox {
+		background-color: #eee;		
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+		padding: 20px;
+	}
+
+	video.header-vid {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.header-img {
+		height: 140px;
+		border: 1px solid black;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	img.rounded {
+		border: 1px solid #eeeeee;
+		border-radius: 10px ;
+		-moz-border-radius: 10px ;
+		-webkit-border-radius: 10px ;
+	}
+	
+	a:link,a:visited
+	{
+		color: #1367a7;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #208799;
+	}
+	
+	td.dl-link {
+		height: 160px;
+		text-align: center;
+		font-size: 22px;
+	}
+	
+	.layered-paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35), /* The third layer shadow */
+		15px 15px 0 0px #fff, /* The fourth layer */
+		15px 15px 1px 1px rgba(0,0,0,0.35), /* The fourth layer shadow */
+		20px 20px 0 0px #fff, /* The fifth layer */
+		20px 20px 1px 1px rgba(0,0,0,0.35), /* The fifth layer shadow */
+		25px 25px 0 0px #fff, /* The fifth layer */
+		25px 25px 1px 1px rgba(0,0,0,0.35); /* The fifth layer shadow */
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+	.paper-big { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35); /* The top layer shadow */
+
+		margin-left: 10px;
+		margin-right: 45px;
+	}
+
+
+	.layered-paper { /* modified from: http://css-tricks.com/snippets/css/layered-paper/ */
+		box-shadow:
+		0px 0px 1px 1px rgba(0,0,0,0.35), /* The top layer shadow */
+		5px 5px 0 0px #fff, /* The second layer */
+		5px 5px 1px 1px rgba(0,0,0,0.35), /* The second layer shadow */
+		10px 10px 0 0px #fff, /* The third layer */
+		10px 10px 1px 1px rgba(0,0,0,0.35); /* The third layer shadow */
+		margin-top: 5px;
+		margin-left: 10px;
+		margin-right: 30px;
+		margin-bottom: 5px;
+	}
+	
+	.vert-cent {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	
+	hr
+	{
+		border: 0;
+		height: 1px;
+		background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	}
+</style>
+
+<html>
+<head>
+	<title>Xinran Tang</title>
+<!--	<meta property="og:image" content="Path to my teaser.png"/> &lt;!&ndash; Facebook automatically scrapes this. Go to https://developers.facebook.com/tools/debug/ if you update and want to force Facebook to rescrape. &ndash;&gt;-->
+	<meta property="og:title" content="Xinran(Sherry) Tang" />
+	<meta property="og:description" content="Welcome to my personal web page" />
+
+	<!-- Get from Google Analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src=""></script> 
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-75863369-6');
+	</script>
+</head>
+
+<body>
+	<br>
+	<center>
+		<span style="font-size:36px">Xinran(Sherry) Tang</span>
+		<table align=center width=600px>
+
+<!--			Table of Links-->
+<!--			<table align=center width=600px>-->
+<!--				<tr>-->
+<!--					<td align=center width=100px>-->
+<!--						<center>-->
+<!--							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">First Author</a></span>-->
+<!--						</center>-->
+<!--					</td>-->
+<!--					<td align=center width=100px>-->
+<!--						<center>-->
+<!--							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Second Author</a></span>-->
+<!--						</center>-->
+<!--					</td>-->
+<!--					<td align=center width=100px>-->
+<!--						<center>-->
+<!--							<span style="font-size:24px"><a href="https://en.wikipedia.org/wiki/James_J._Gibson">Third Author</a></span>-->
+<!--						</center>-->
+<!--					</td>-->
+<!--				</tr>-->
+<!--			</table>-->
+<!--			<table align=center width=250px>-->
+<!--				<tr>-->
+<!--					<td align=center width=120px>-->
+<!--						<center>-->
+<!--							<span style="font-size:24px"><a href=''>[Paper]</a></span>-->
+<!--						</center>-->
+<!--					</td>-->
+<!--					<td align=center width=120px>-->
+<!--						<center>-->
+<!--							<span style="font-size:24px"><a href='https://github.com/richzhang/webpage-template'>[GitHub]</a></span><br>-->
+<!--						</center>-->
+<!--					</td>-->
+<!--				</tr>-->
+<!--			</table>-->
+		</table>
+	</center>
+
+	<center>
+<!--		Photo-->
+<!--		<table align=center width=850px>-->
+<!--			<tr>-->
+<!--				<td width=260px>-->
+<!--					<center>-->
+<!--						<img class="round" style="width:500px" src="./resources/teaser.png"/>-->
+<!--					</center>-->
+<!--				</td>-->
+<!--			</tr>-->
+<!--		</table>-->
+		<br>
+		<table align=center width=850px>
+			<tr>
+				<td>
+					Undergraduate at Northeastern University(CN)
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Phone: +1 (510)570-9243
+				</td>
+			</tr>
+			<tr>
+				<td>
+					Email: sherrytangssr@gmail.com (Personal)
+				</td>
+				<td>
+					20175345@stu.neu.edu.cn (School)
+				</td>
+				<td>
+					roseal@foxmail.com (Alternative)
+				</td>
+			</tr>
+		</table>
+	</center>
+
+	<hr>
+
+	<table align=center width=850px>
+		<center><h1>Abstract</h1></center>
+		<tr>
+			<td>
+				I am a research assistant at UC San Diego, working with <a  style="color: darkblue" href='https://kennethcwilbur.github.io/website/'>Professor Kenneth Wilbur</a> on business analytics. I am also working as a research assistant at UC Riverside with <a  style="color: darkblue" href='http://www.mingyujoo.com'>Professor Mingyu (Max) Joo</a>.
+			</td>
+
+		</tr>
+			<tr height=10px></tr>
+		<tr>
+			<td>
+				I got intern experience at Walmart, supervised by <a  style="color: darkblue" href="https://www.linkedin.com/in/tom-tang-0826861/">Tom Tang</a>, and Targeted Solutions Inc, supervised by Samuel Stone.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I recently graduated from Northeastern University(CN) with a Bachelor's degree. I was a visiting student at UC Berkeley for 2020 Spring semester and Mcgill University of Canada for 2019 Summer.
+			</td>
+		</tr>
+					<tr height=10px></tr>
+		<tr>
+			<td>
+				I am applying to graduate programs in United States.
+				I major in computer science (field: software engineering) and am broadly interested in data science and business analytics. I acquire strong technical skills required for these fields and obsess excellent reasoning ability.
+		</tr>
+	</table>
+	<br>
+
+	<hr>
+	<center><h1>Experience</h1></center>
+	<center><h2 style="color: darkblue">2017-now</h2></center>
+	<table align=center width=850px>
+		<center>
+
+			<tr><td><h3>
+				Bachelor of Engineering at Northeastern University(CN)
+			</h3></td></tr>
+			<tr><td>
+				<b>Major:</b> Computer Science (field: Software Engineering)
+			</td></tr>
+			<tr><td>
+				<b>GPA:</b> 93.366/100 4.3366/5 (Rank : 1)
+							</td></tr>
+			<tr><td>
+				The courses of impacted major Software Engineering (International, English) are all provided
+in English
+			</td></tr>
+			<tr><td>
+				<b>Course grades:</b> 100/100 in Database, 99/100 in Software Architecture and Design, 98/100 in
+C++ Programming, 98/100 in Algorithm Analysis, 99/100 in Operating System, 98/100 in
+Theories of Probability and Statistics, 96/100 in Software Engineering, 95/100 in Data
+Structure, etc.
+			</td></tr>
+			<tr height=20px></tr>
+			<tr><td><h3>
+				Research Assistant, Student Research Team Leader at Northeastern University(CN)
+			</h3></td></tr>
+
+			<tr><td>
+				I was a research assistant at Northeastern University supervised by <a href="https://www.researchgate.net/profile/Tao_Ren5" style="color: darkblue"> Tao Ren</a>.
+			</td></tr>
+		</center>
+	</table>
+
+	<center><h2 style="color: darkblue">2019</h2></center>
+	<table align=center width=850px>
+		<center>
+			<tr><td><h3>
+				Visiting Student at Mcgill University, Canada
+			</h3></td></tr>
+			<tr>
+				<td>
+					I was a visiting student at Mcgill University, Canada for the Artificial Intelligence program of summer. I obtained first sight into Artificial Intelligence and got A for the final grade.
+				</td>
+			</tr>
+			<tr height=20px></tr>
+			<tr><td><h3>
+				Student Representative at 2019 Global Grand Challenge Summit
+			</h3></td></tr>
+			<tr>
+				<td>
+					<p>
+						I attended as student representative of Northeastern University the <a href="https://www.raeng.org.uk/global/international-partnerships/international-policy/welcome" style="color: darkblue">2019 Global Grand Challenge Summit</a> jointly hosted by the UK, US and Chinese Academies of Engineering
+in London,UK, whose topic is "How can AI change the future " and "How can we
+sustain 10 billion people" and my team entered the Top 10 winning team in the Student Collaboration Competition held during that event.
+					</p>
+				</td>
+			</tr>
+			<tr height=20px></tr>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="height:200px" src="./resources/1.JPG"/>
+
+						<img class="round" style="height:200px" src="./resources/2.JPG"/>
+
+						<img class="round" style="height:200px" src="./resources/3.JPG"/>
+					</center>
+				</td>
+			</tr>
+			<tr height=20px></tr>
+		</center>
+	</table>
+
+	<center><h2 style="color: darkblue">2020</h2></center>
+	<table align=center width=850px>
+		<center>
+			<tr><td><h3>
+				Visiting Student at University of California, Berkeley
+			</h3></td></tr>
+			<tr>
+				<td>
+					I was a visiting student at University of California, Berkeley in 2020. I selected CS 70(Discrete Mathematics and Probability Theory), CS 170(Efficient Algorithms and Intractable Problems) and CS 188(Artificial Intelligence) and got a GPA of 3.9/4.0.
+				</td>
+			</tr>
+			<tr height=20px></tr>
+			<tr>
+				<td width=260px>
+					<center>
+						<img class="round" style="height:200px" src="./resources/4.png"/>
+					</center>
+				</td>
+			</tr>
+						<tr height=20px></tr>
+			<tr><td><h3>
+				Research Assistant at University of California, San Diego
+			</h3></td></tr>
+			<tr>
+				<td>
+					I am a research assistant at UC San Diego, supervised by Professor Kenneth Wilbur on business analytics. We work together through 3 projects, focusing on marketing. My main work included writing crawlers using Scrapy, Selenium separately, building and managing databases for permanent data storage, data cleaning and analyzing and model training.	</td>
+			</tr>
+						<tr height=20px></tr>
+			<tr><td><h3>
+				Research Assistant at University of California, Riverside
+			</h3></td></tr>
+			<tr>
+				<td>
+					I am a research assistant at UC Riverside, supervised by Professor Mingyu Joo on statistics of advertisements. My main work includes statistical analysis of dataset and model building.				</td>
+			</tr>
+		</center>
+	</table>
+
+
+<!--	<center><h1>Projects</h1></center>-->
+
+<!--	<table align=center width=420px>-->
+<!--		<center>-->
+<!--			<tr>-->
+<!--				<td>-->
+<!--				</td>-->
+<!--			</tr>-->
+<!--		</center>-->
+<!--	</table>-->
+<!--	<table align=center width=400px>-->
+<!--		<tr>-->
+<!--			<td align=center width=400px>-->
+<!--				<center>-->
+<!--					<td><img class="round" style="width:450px" src="./resources/method_diagram.png"/></td>-->
+<!--				</center>-->
+<!--			</td>-->
+<!--		</tr>-->
+<!--	</table>-->
+<!--	<table align=center width=850px>-->
+<!--		<center>-->
+<!--			<tr>-->
+<!--				<td>-->
+<!--					Short description if wanted-->
+<!--				</td>-->
+<!--			</tr>-->
+<!--		</center>-->
+<!--	</table>-->
+
+<!--	<br>-->
+<!--	<hr>-->
+<!--	<table align=center width=450px>-->
+<!--		<center><h1>Paper and Supplementary Material</h1></center>-->
+<!--		<tr>-->
+<!--			<td><a href=""><img class="layered-paper-big" style="height:175px" src="./resources/paper.png"/></a></td>-->
+<!--			<td><span style="font-size:14pt">F. Author, S. Author, T. Author.<br>-->
+<!--				<b>Creative and Descriptive Paper Title.</b><br>-->
+<!--				In Conference, 20XX.<br>-->
+<!--				(hosted on <a href="">ArXiv</a>)<br>-->
+<!--				&lt;!&ndash; (<a href="./resources/camera-ready.pdf">camera ready</a>)<br> &ndash;&gt;-->
+<!--				<span style="font-size:4pt"><a href=""><br></a>-->
+<!--				</span>-->
+<!--			</td>-->
+<!--		</tr>-->
+<!--	</table>-->
+<!--	<br>-->
+
+<!--	<table align=center width=600px>-->
+<!--		<tr>-->
+<!--			<td><span style="font-size:14pt"><center>-->
+<!--				<a href="./resources/bibtex.txt">[Bibtex]</a>-->
+<!--			</center></td>-->
+<!--		</tr>-->
+<!--	</table>-->
+
+<br>
+</body>
+</html>
+
