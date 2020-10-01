@@ -38,7 +38,7 @@ The formula specification is a response variable followed by a ***four part*** f
 i.e. something like ```felm(“Dependent variable”~”Independent variable for Statistical Inference” | “Variables just for Control")```
 ```y ~ x1 + x2 | f1 + f2 | (Q|W ~ x3+x4) | clu1 + clu2 ``` where y is the ***response/dependent variable***, x1,x2 are ordinary ***covariates/independent variable*** (seperated by ```+``` signs), f1,f2 are factors to be projected out, Q and W are covariates which are instrumented by x3 and x4, and clu1,clu2 are factors to be used for computing cluster robust standard errors.
 
-Parts that are not used should be specified as ***0***, except if it's at the end of the formula, where they can be omitted. The parentheses are needed in the third part since | has higher precedence than ~. Multiple left hand sides like ```y|w|x ~ x1 + x2 |f1+f2|...``` are allowed.
+Parts that are not used should be specified as ***0***, except if it's at the end of the formula, where they can be omitted. The parentheses are needed in the third part since ```|``` has higher precedence than ~. Multiple left hand sides like ```y|w|x ~ x1 + x2 |f1+f2|...``` are allowed.
 
 ### Problems
 
@@ -88,7 +88,7 @@ One problem is when I set the previous control variables to independent variable
 
 ***Attempt 2***
 
-mfatt.rnd<-felm(dt$attention~factor(dt$position) | dt$participant+dt$stimulus2)
+```mfatt.rnd<-felm(dt$attention~factor(dt$position) | dt$participant+dt$stimulus2)```
 
 From the model above, can get “residuals” + Intercept estimate, which can be the dependent variable for the following model:
 	```[residuals (vector) + intercept (scalar) from mfatt.rnd above] ~ dt$pre_stimulus2```, with cse
