@@ -33,6 +33,7 @@ In response to the above-mentioned problems, this work uses Kinect with Bluetoot
 
 ![](/assets/kinect1.jpg)
 
+
 This work does not need to change the hardware equipment of the existing projection system and is easy to promote.
 
 # Breakthrough
@@ -54,6 +55,7 @@ This work does not need to change the hardware equipment of the existing project
 # Outcome:
 
 The team completed the design and implementation of the Kinect-based electronic whiteboard touch control system, which solved the shortcomings of traditional blackboard chalk teaching and multimedia teaching, and made up for the whiteboard as the specificity of the teaching field. In the remote automatic calibration module of the electronic whiteboard touch system, combining the characteristics of the system and the advantages of the existing calibration methods, a specific matrix mapping algorithm is researched. In the depth data processing module, the depth of the touch point relative to the Kinect in the actual operation is collected, and the data is transmitted to the module for analysis and processing inside the system. The system uses the background difference method to process and calculate the background depth model to obtain the depth threshold, and then compare the current depth with the background depth model when the depth data is passed in, and filter out the pixel blocks within the depth range. By identifying the contour area of ​​the pixel block and determining whether the pixel block is a touch point according to related parameters. In the contact area data processing module, it is used to determine the contact area of ​​the plane touched by the finger in actual operation, and transmit the data to the module for analysis and processing inside the system.
+
 ![](/assets/6.png)
 
 This project has applied for a chinese national patent and a software copyright, and won one silver prize in the 2020 Russian Archimedes International Invention Exhibition, two gold prizes and one first prize in various Chinese student innovation and entrepreneurship competitions.

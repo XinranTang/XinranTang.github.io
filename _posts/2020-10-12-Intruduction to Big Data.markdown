@@ -694,5 +694,16 @@ Given a *DataModel*, a definition of *similarity* between users (items) and a de
 
 ### 3.2.2 Item-based recommendation
 ![](/assets/bigdata23.png)
+
 ### 3.2.3 Slope-One Algorithm
+
 ![](/assets/bigdata24.png)
+
+# 4. Block Chain
+
+## 4.1 Motivation
+Problem : Slow Payment Transactions
+
+Almost completely manual with a single “transaction” taking as long as 50 days!
+
+*“The trade happens in seconds, but it takes days to complete the transaction.”*
