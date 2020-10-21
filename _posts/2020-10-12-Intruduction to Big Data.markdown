@@ -702,8 +702,100 @@ Given a *DataModel*, a definition of *similarity* between users (items) and a de
 # 4. Block Chain
 
 ## 4.1 Motivation
-Problem : Slow Payment Transactions
+Problem : Slow Payment Transactions (because of each institution uses different ledgers)
 
 Almost completely manual with a single “transaction” taking as long as 50 days!
 
 *“The trade happens in seconds, but it takes days to complete the transaction.”*
+
+Solution:  a *digital* permissioned, replicated, ***shared ledger*** …enabled by open *Blockchain* technology
+
+## 4.2 Concept
+
+Blockchain is an (1) electronic, (2) distributed, (3) replicated, (4) decentralized Ledger
+
+**Ledger** is THE system of record for a business
+records asset transfer between participants.
+
+Business will have multiple ledgers for multiple business networks in which they participate… hence may be “peers” in multiple blockchains…..
+
+The **“Block”** is an executed & verified transaction
+
+![](/assets/bigdata26.png)
+
+The **“Chain”** is the Ledger 
+(book of record for all transactions)
+
+![](/assets/bigdata27.png)
+
+![](/assets/bigdata28.png)
+
+A **shared ledger technology** allowing any participant in the business network to see THE system of record (ledger)
+
+**Smart Contracts**: Business rules implied by the contract, codified in the Blockchain and executed with the transaction which are verifiable and signed.
+
+### 4.2.1 Key Concepts
+
+
+#### 4.2.1.1 Distributed shared ledgers
+
+Group of replicated logs/databases (nodes)
+
+ Transactions distributed in blocks
+
+ All nodes hold all transactions
+
+
+ Parties identified with public key (= anonymised)
+ Accessibility of transactions depending on blockchain 
+ implementation
+
+ Resilient for failure of one or more nodes
+
+ Group of nodes operate tamper proof
+
+
+#### 4.2.1.2 Consensus
+
+Consensus = Majority of nodes agree on validity of transactions
+
+ Includes validation on double-spending
+
+ Permissionless (public) vs. permissioned (private) blockchain setup
+
+ Proof-of-work / proof-of-stake the proof validity of node
+	(only applicable for permissionless network)
+
+#### 4.2.1.3 Cryptography 
+
+![](/assets/bigdata25.png)
+
+#### 4.2.1.4 Smart Contracts
+
+Business logic that can be assigned to a transaction on the blockchain
+
+ Acts as a ‘notary’ of blockchain transactions
+
+ Holds conditions under which specific actions can/must be performed
+
+ Facilitates escrow services
+
+ Can’t be modified without predefined permissions
+
+## 4.3 Use Cases
+
+### 4.3.1 Bitcoin
+
+### 4.3.2 Ethereum
+
+### 4.3.3 Smart Business Contract
+
+![](/assets/bigdata29.png)
+
+## 4.4 Demo 
+
+https://www.youtube.com/watch?v=EqZr4LPQIWk
+
+**Blockchain on IBM Systems**
+
+![](/assets/bigdata30.png)
